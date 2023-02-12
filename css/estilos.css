@@ -1,0 +1,112 @@
+body{
+    background-color: #eee;
+    padding-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    text-align: justify;
+}
+
+.contenedor{
+    background-color: white;
+    max-width: 700px;
+    margin: 0px auto 0px; 
+    box-shadow: 2px 2px 4px #DAD7D7;
+    border-radius: 5px;  
+    margin-top: 50px;
+}
+
+.encabezado{
+    padding-top: 40px;
+    margin-bottom: 40px;
+    background-color: #0000ff;
+    color: white;
+}
+
+.nombrecompleto{
+    font-size: 40px;
+    padding-left: 15px;
+}
+#nombre{
+    font-weight: 700;
+}
+
+.marco {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+  
+.derecha {
+    margin-left: auto;
+    text-align: right;
+    padding-right: 15px;
+}
+  
+@media (max-width: 400px) {
+    .marco {
+      flex-direction: column;
+    }
+    .derecha {
+      margin-left: 0;
+      margin-bottom: 10px;
+      text-align: left;
+    }
+}
+
+.titulos{
+    color: #0000ff;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.informacion{
+    background-color: white;
+    color: black;
+    padding:15px;
+    text-align: justify;
+}
+
+#profesion{
+    color: #0000ff;
+    font-weight: 600;
+}
+
+.accordion {
+    background-color: #0000ff;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-weight: 600;
+    transition: 0.4s;
+}
+  
+.accordion:hover {
+    background-color: #009; 
+}
+  
+.panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+}
+
+.puesto{
+    color: #0000ff;
+}
+    
+.lista_item{
+    color: #0000ff;   
+}
